@@ -1,0 +1,180 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+
+  h1{
+    text-align: center;
+    padding-top: 4em;
+    font-weight: bolder;
+  }
+  h2{
+    text-align: center;
+    font-size: 5em;
+    font-weight: bolder;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    padding-top: 0;
+    text-align: left;
+  }
+  header a{
+    color: #f7f7f7;
+    text-decoration: none;
+  }
+  
+  /* Navigation Styles */
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: #af0909;
+  }
+  footer{
+    background-color: #333;
+    color: #f7f7f7;
+    margin-top: 2em;
+    padding-bottom: 0;
+  }
+  
+  /* Section Styles */
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+
+  .picture {
+    background-image: url(fotos/winkel2.png);
+    padding-bottom: 30em;
+    text-align: right;
+  }
+  .aboutme{
+    color: #333;
+    text-align: center;
+    padding-top: 3em;
+    font-weight: bolder;
+    font-size: large;
+  }
+  .aboutme div{
+    padding-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  .portfolio-item img{
+    width: 35em;
+  }
+
+  .portfolio-item{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    padding: 3em;
+    background-color: #333;
+    color: #f7f7f7;
+    margin-top: 3em;
+    border-radius: 3em;
+    box-shadow: 10px 10px 10px black;
+  }
+  .portfolio-item a{
+    color: #f7f7f7;
+    text-decoration: none;
+    padding: 0.5em;
+    border-radius: 3em;
+  }
+  .portfolio-item:hover{
+    box-shadow: 10px 10px 10px #af0909;
+  }
+  .logosetc{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    padding: 3em;
+    background-color: #af0909;
+    color: #f7f7f7;
+    margin-top: 3em;
+    border-radius: 3em;
+    box-shadow: 10px 10px 10px black;
+    font-size: large;
+  }
+
+  .logosetc img{
+    width: 10em;
+  }
+  .textstukje{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 5em;
+  }
+  .textstukje img{
+    width: 30em;
+  }
+  .FINAL{
+    display: flex;
+    font-size: 5em;
+  }
+  .FINAL p {
+    margin: 0;
+    padding-right: 5em;
+    padding-left: 2em;
+  }
+  .FINAL img{
+    width: 500px;
+  }
+  .textstukje p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin: 20px;
+    padding-top: 0em;
+}
+.textstuk{   
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin: 20px;
+    text-align: center;
+}
